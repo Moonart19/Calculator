@@ -1,0 +1,78 @@
+body{
+  margin: 0px;
+  padding: 0px;
+  font-family: monospace;
+  background-color:aliceblue ;
+}
+
+h1{
+  text-align: center;
+  font-size: 40px;
+}
+
+.container{
+  width: 450px;
+  height: 500px;
+  border: 6px solid black;
+  border-radius: 5px;
+  margin: 0 auto;
+}
+
+.display{
+  background-color:bisque;
+  border: 5px solid red;
+  border-radius: 2px;
+  width: 440px;
+  height: 100px;
+}
+button {
+  font-size: 20px;
+  width: 80px;
+  height: 80px;
+}
+.content {
+  display: flex;
+  height: 390px;
+}
+
+.numbers{
+  /* border: 2px solid green; */
+  background-color: rgb(177, 215, 218);
+}
+
+.numbers, .operators{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 5px;
+  gap: 2px;
+}
+
+.numbers > button{
+  background-color: rgb(236, 179, 105);
+  border: none;
+  border-radius: 10px;
+  font-size: 50px;
+}
+
+.numbers > button:active{
+  background-color:rgb(221, 138, 213);
+}
+
+.operators{
+  /* border: 2px solid firebrick; */
+  background-color: burlywood;
+}
+
+.operators > button {
+  font-size: 35px;
+  border: none;
+  border-radius: 10px;
+  background-color:azure ;
+}
+.operators > button:active{
+  background-color:rgb(159, 230, 132);
+}
+
+
