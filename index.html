@@ -7,32 +7,41 @@
   <title>Calculator</title>
 </head>
 <body>
-  <h1>Calculator</h1>
+  <h1 align="center">Calculator</h1>
   <div class="container">
-    <div class="display"></div>
-    <div class="content">
-      <div class="numbers">
-        <button id="9">9</button>
-        <button id="8">8</button>
-        <button id="7">7</button>
-        <button id="6">6</button>
-        <button id="5">5</button>
-        <button id="4">4</button>
-        <button id="3">3</button>
-        <button id="2">2</button>
-        <button id="1">1</button>
-        <button id="0">0</button>
-      </div>
-      <div class="operators">
-        <button id="all-clear">AC</button>
-        <button id="delete">DEL</button>
-        <button id="div">÷</button>
-        <button id="mul">*</button>
-        <button id="sub">-</button>
-        <button id="add">+</button>
-        <button id="equal">=</button>
+    <div class="display-container">
+      <div class="display">Enter values....</div>
+    </div>
+    <div class="btns-container">
+        <div class="row">
+          <button class="button">9</button>
+          <button class="button">8</button>
+          <button class="button">7</button>
+          <button class="button">+</button>
+        </div>
+        <div class="row">
+          <button class="button">6</button>
+          <button class="button">5</button>
+          <button class="button">4</button>
+          <button class="button">-</button>
+        </div>
+        <div class="row">
+          <button class="button">3</button>
+          <button class="button">2</button>
+          <button class="button">1</button>
+          <button class="button">*</button>
+        </div>
+        <div class="row">
+          <button class="button">0</button>
+          <button class="button">=</button>
+          <button class="button">.</button>
+          <button class="button">/</button>
+        </div>
+        <button class="button clear">C</button>
       </div>
     </div>
   </div>
+  
+  <script src="calci.js"></script>
 </body>
 </html>
